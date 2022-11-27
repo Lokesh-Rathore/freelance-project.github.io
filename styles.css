@@ -1,0 +1,121 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ background-color: white;
+}
+i{
+ font-size: 2rem;
+ color: gray;
+}
+h4{
+ font-size: 2rem;
+}
+.navbar{
+ display: flex;
+ flex-direction: row;
+ align-items: center;justify-content: end;
+ padding: 10px 10px;
+}
+.navbar h3{
+ font-size: 2rem;
+ color: gray;
+}
+.herosection{
+ margin-top: 4rem;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content:center;
+ height: 70vh;
+ background-image: url("./heropic.jpg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center;
+}
+.herosection img{
+ width: 100%;
+ max-width: 250px;
+ margin-bottom: 1rem;
+ transform: translate(-20px);
+}
+.herosection button{
+ background: none;
+ border: none;
+ width: fit-content;
+ height: fit-content;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+.herosection button input{
+ padding: 8px 10px;
+ width: 700px;
+ border-radius: 20px;
+ border: solid 3px gray;
+ color: gray;
+}
+.herosection button i{
+ color: gray;
+ font-size: 2rem;
+ transform: translate(-80px);
+}
+.herosection button i:hover{
+ cursor: pointer;
+}
+
+/* categorie section  */
+.categorie{
+ padding: 0 5rem;
+ margin-top: 7rem;
+}
+.categorie .grid-container{
+ margin-top: 2rem;
+ display: grid;
+ gap: 40px;
+ grid-template-columns: auto auto auto;
+ 
+}
+.categorie .grid-container .grid-item{
+ border: 2px solid gray;
+ width: 100%;
+ height: 200px;
+ border-radius: 30px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ /* width: 100px;
+ height: 100px; */
+}
+
+
+/* tableSection */
+.tableSection{
+ margin-top: 3rem;
+ padding: 0 5rem;
+ padding-bottom: 10rem;
+}
+.tableSection table{
+ width: 100%;
+ text-align: center;
+}
+.tableSection table tr td{
+ margin-top: 2rem;
+}
+.tableSection table tr .radio{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-evenly;
+ border: 2px solid gray;
+ border-radius: 10px;
+}
+.tableSection table tr .radio i{
+ font-size: 1rem;
+ cursor: pointer;
+}
