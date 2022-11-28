@@ -119,3 +119,15 @@ h4{
  font-size: 1rem;
  cursor: pointer;
 }
+
+button{
+    float: right;
+    padding: 10px 20px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
